@@ -12,6 +12,7 @@ export const isValidCpf = (cpf: string): boolean => {
 }
  
     if (/^(\d)\1+$/.test(digits)) {
+        
         return false;
     }
  
